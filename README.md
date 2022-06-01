@@ -1,3 +1,5 @@
+# EXP. NO: 05
+# DATE:
 # Markov Process
 
 
@@ -24,9 +26,21 @@ Assumptions for Markov Chain :
 
 
 # Program
-
-
+```
+# Developed by : SURYA R
+# Reg no:212220230052
+import numpy as np
+p0=[0.3,0.2,0.5]
+p=[[0,2/3,1/3],[1/2,0,1/2],[1/2,1/2,0]]
+n=10
+for i in range(1,n+1):
+    p0=np.multiply(p0,p)
+    print("The %d -step probability distribution is"%i)
+    print(p0)
+```
 
 
 # Results and Output : 
+![maths](https://user-images.githubusercontent.com/75236145/171331091-1156301b-d1c7-4f9e-af57-e18283375723.png)
+![12](https://user-images.githubusercontent.com/75236145/171331099-ca7fdb1c-6350-40e9-8e61-fd5e6096b105.png)
 
