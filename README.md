@@ -1,6 +1,6 @@
 # EXP. NO: 05
 # DATE:
-# Markov Process
+# <p align="center">Markov Process</p>
 
 
 # Aim : 
@@ -40,7 +40,10 @@ for i in range(1,n+1):
 ```
 
 
-# Results and Output : 
+# Output : 
 ![maths](https://user-images.githubusercontent.com/75236145/171331091-1156301b-d1c7-4f9e-af57-e18283375723.png)
+<br>
 ![12](https://user-images.githubusercontent.com/75236145/171331099-ca7fdb1c-6350-40e9-8e61-fd5e6096b105.png)
 
+# Results :
+Thus,the nth step probability distribution matrix of the three state Markov chain of given matrices are calculated.
